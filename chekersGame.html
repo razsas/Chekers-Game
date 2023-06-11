@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./Checkers.css"/>
+    <title>Checkers</title>
+</head>
+<body>
+    <div class="grid-container" id="checkers_board">
+    </div>
+    <div>
+        <button onclick="restartBoard()" id="reset-button">restart</button>
+        <button onclick="toResign()" id="resign-button">resign</button>
+        <button onclick="askDraw()" id="draw-button">ask for a draw</button>
+        <h3 id="currentTurn">Blacks Turn</h3>
+    </div>
+    </div>
+    <div class="modal_container" id="game-over-screen">
+        <div class="modal_bg" ></div>
+        <div class="modal_box" id="modalBox">afdsagas</div>
+        <div style="flex-direction: row; display: flex;">
+            <button onclick="acceptDraw()" class="hidden-buttons" id="yes_button">yes</button>
+            <button onclick="refuseDraw()" class="hidden-buttons" id="no_button">hell no</button>
+        </div>
+    </div>
+    <script src="./chekers.js"></script>
+</body>
+</html>
