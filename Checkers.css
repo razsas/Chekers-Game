@@ -5,8 +5,8 @@
     margin: 5px auto;
     margin-top: 20px;
     display: grid;
-    grid-template-columns: repeat(1fr, 8);
-    grid-template-rows: repeat(1fr, 8);
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
 }
 .white-cell{
     background: whitesmoke;

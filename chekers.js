@@ -483,4 +483,4 @@ function copyBoard(){
         copy.push(line2);
     })
     return copy;
-} 
+}
